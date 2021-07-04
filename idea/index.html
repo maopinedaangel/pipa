@@ -6,20 +6,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pipa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <h1>Industrias Creativas Pipa</h1>
-    <h2>Hello Family!</h2>
-    <p>Voy a crear una empresita de desarrollo de software y me gustaría escuchar todas sus sugerencias.</p>
-    <p>Para eso creé este proyecto compartido, para que me hagan sus aportes en ideas, código, snippets, etc.</p>
-    <p>Así que siéntanse libres de agregar contenido aquí</p>
-    <img src="img/kite.png" alt="Imagen de una cometa volando">
-    <p>No sé cómo se va a llamar la empresa, pero por ahora le puse <strong>Pipa</strong>, que es la palabra que
-        significa <strong>Cometa</strong> en portugués.</p>
+    <header>
 
-    <section id="help">
+    </header>
+
+    <h1>Industrias Creativas <span id="titulo-pipa">Pipa</span></h1>
+    <div id="div-logo">
+        <img id="logo-copiado" src="img/kite.png" alt="Imagen de una cometa volando"> 
+    </div>
+   
+    <section>
+        <h2>Hello Family!</h2>
+        <p>Voy a crear una empresita de desarrollo de software y me gustaría escuchar todas sus sugerencias.</p>
+        <p>Para eso creé este proyecto compartido, para que me hagan sus aportes en ideas, código, snippets, etc.</p>
+        <p>Así que siéntanse libres de agregar contenido en cualquier lugar de esta página.</p>
+        <p>No sé cómo se va a llamar la empresa, pero por ahora le puse <strong>Pipa</strong>, que es la palabra que
+            significa <strong>Cometa</strong> en portugués.</p>            
+    </section>
+
+    <section>
+        <h3>¿Cómo me pueden ayudar?</h3>
+        <p>Básicamente, de cualquier forma que se les ocurra... ideas, sugerencias, diseño, información, plata <span>&#128514;&#128514;</span> ... lo que quieran</p>
+        <ul>
+            <li>Sugerencias sobre cómo sacar adelante esta empresa. No tengo ni idea. <span>&#128533;</span></li>
+            <li>Ideas de proyectos por realizar. La verdad... no sé por dónde empezar. <span>&#128517;</span></li>
+            <li>Contenido, estilos, truquitos que descubran, etc. Pueden escribir en cualquier sección de esta página o generar secciones adicionales. No importa si se desordena... ahí lo vamos cuadrando.</li>
+            <li>Una forma de ayudarme, por ej, sería ponerle estilo a esta página.. un encabezado, un footer, lo que sea...</li>
+            <li>La idea es que al mismo tiempo vamos aprendiendo unos de otros chismoseando el código de los demás.</li>
+            <li>También podríamos pensar en ser socios.<span>&#128527;</span></li>
+        </ul>
+    </section>
+
+
+    <section>
+        <h3>Sugerencias</h3>
+        <p>Aquí podemos poner sugerencias especialmente con relación al contenido de esta página, estructura, temas, etc.</p>
+        <ul>
+            <li>Poner las sugerencias aquí</li>
+            <li></li>
+        </ul>        
+    </section>
+
+
+    <section>
+        <h3>Ideas</h3>
+        <p>¿Qué proyectos podríamos empezar? Juegos, cursos, e-commerce... </p>
+        <ul>
+            <li>Poner las ideas aquí:</li>
+            <li></li>
+        </ul>        
+    </section>    
+
+    
+    <section>
+        <h3>¿Qué otras secciones agregamos?</h3>
+    </section>
+
+
+    <section class="help">
         <h3>Ayuda</h3>
         <h3>(Especialmente para el chico Juan si no recuerdas esta parte)</h3>
         <p>Es muy fácil editar esta página:</p>
@@ -28,8 +79,55 @@
             <li>Dentro de la carpeta, abrir la consola de git (Git Bash) y Clonar el repositorio con el comando <em>git clone https://github.com/maopinedaangel/pipa.git</em></li>
             <li>Abrir la carpeta clonada con Visual Studio Code.</li>
             <li>¡Y empezar a editar! No se necesita instalar nada.</li>
+            <li>Para subir los cambios, ubicarse en la carpeta del repositorio y abrir la consola de Git (Git Bash)</li>
+            <li>Escribir el comando <strong>git add .</strong> para agregar a seguimiento todos los archivos modificados.</li>
+            <li>Escribir el comando <strong>git commit -m "Mensaje"</strong> para confirmar los archivos.</li>
+            <li>Escribir el comando <strong>git push origin main</strong> para subir los cambios al repositorio remoto (a Github). al realizar esta acción, es posible que Git solicite las credenciales, es decir, nombre de uusario y contraseña.</li>
         </ol>
     </section>
+
+
+    <section class="help">
+        <h3>Mini-Instructivo de Git</h3>
+        <p>Proximamente...</p> 
+        <!--
+        <table>
+            <tr>
+                <th>Tarea</th>
+                <th>Comando</th>                
+            </tr>
+            <tr>
+                <td>Clonar un repositorio existente</td>
+                <td>git clone nombreRepositorio</td>                
+            </tr>
+            <tr>
+                <td>Agregar un archivo al seguimiento</td>
+                <td>git add nombreArchivo</td>                
+            </tr>  
+            <tr>
+                <td>Agregar todos los archivos al seguimiento</td>
+                <td>git add .</td>                
+            </tr> 
+            <tr>
+                <td>Generar una versión del proyecto</td>
+                <td>git commit -m "Mensaje"</td>                
+            </tr>   
+            <tr>
+                <td>Descargar la versión actual del repositorio</td>
+                <td>git pull origin main</td>                
+            </tr>       
+            <tr>
+                <td>Subir los últimos cambios al repositorio remoto</td>
+                <td>git push origin main</td>                
+            </tr>                                                 
+        </table>
+        -->
+             
+    </section>   
+
+    <footer>
+
+    </footer>
 </body>
 
 </html>
